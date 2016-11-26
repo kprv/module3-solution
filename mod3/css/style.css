@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	color:beige;
+	background-color: beige;
+	font-family: 'Oxygen', sans-serif;
+	}
+
+#header-nav {
+	background-color:#cca300;
+	border-radius: 0;
+	border: 0;
+	}
+
+.navbar-brand {
+	padding-top:2px;
+	}
+
+.navbar-brand h1 {/*Restaurant name*/
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	}
+
+	navbar-brand a:hover, .navbar-brand a:focus {
+		text-decoration: none;
+	}
+
+	h2 {
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 20px;
+		font-family: 'Oxygen', sans-serif;
+	}
+.container {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: 20px;	
+}
+h3 {
+	padding-top:20px;
+	font-weight: bold;
+	text-align: center;
+}
+p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.chicken {
+	background-color:#dfff80;
+}
+.beef {
+	background-color: #ffff80;
+}
+.pork {
+	background-color: #ffd966;
+}
