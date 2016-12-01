@@ -1,0 +1,92 @@
+body {
+	font-size:16px;
+	font-family: 'oxygen', sans-serif;
+}
+header {
+	height:120px;
+	text-align:center;
+	background-color: #990000;
+}
+#sanger {
+	float:left;
+	margin-left:10px;
+	}
+#main-container {	
+background-color:#e9e2d2;
+}
+#main-content {
+	margin-top: 30px;	
+}
+
+.social-menu {
+	margin-top: 30px;
+}
+.social-menu li {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #e9e2d2;
+}
+li a {
+	width:220px;
+	color: #990000;
+	background:gray;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+#nav-list>li>a:hover {
+	background: beige;color:black;font-weight:bold;
+}
+#sub-list {
+	background:#e9e2d2;	
+}
+#sub-list li {
+	height: 35px;
+	color:gray;
+}
+#sub-list>li>a {
+	color:#990000;
+	font-size:12px;
+	height:34px;	
+	font-weight:bold;	
+	background: gray;
+	margin-bottom:2px ;
+}
+#sub-list>li>a:hover {
+	background-color: beige; color:black;font-weight:bold;
+}
+.dropdown-submenu:hover .dropdown-menu {
+	top:0;	
+	margin-left:220px;
+	display:block;
+}
+.row.content {height: 100%}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #e9e2d2;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+#content {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+#NYU {
+	text-align: center;
+}
