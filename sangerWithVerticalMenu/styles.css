@@ -15,7 +15,7 @@ header {
 }
 /* Navigation STyling */
 .main-nav {
-		margin-top:50px;
+		margin-top:60px;
 		width: 280px;
 		background: lightgray;
 		}
@@ -57,11 +57,12 @@ header {
 }
 
 .social-menu {
-	margin-top:50px;
+	margin-top:100px;
 }
 .social-menu li {
 	text-align: center;
 	margin-bottom: 20px;
+	margin-right: 50px;
 	color: #e9e2d2;
 }
 

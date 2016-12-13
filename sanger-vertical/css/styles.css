@@ -39,7 +39,7 @@ header {
 li a {
 	width:220px;
 	color: #990000;
-	background:#bfbfbf;
+	background:lightgray;
 	font-size: 16px;	
 	font-family: 'oxygen', sans-serif;
 	border-bottom: 1px dotted gray;
@@ -97,8 +97,8 @@ li a {
     
     /* Set black background color, white text and some padding */
     footer {
-      background-color: #555;
-      color: white;
+      background-color: lightgray;
+      
       padding: 15px;
     }
     
