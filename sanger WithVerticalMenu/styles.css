@@ -1,0 +1,83 @@
+* {padding:0; margin:0;}
+a {text-decoration: none;}
+li {list-style: none;}
+
+body {
+	background:#e9e2d2 ;
+}
+#main-container {	
+background-color:#e9e2d2;
+}
+header {
+	height:120px;
+	text-align:center;
+	background-color: #990000;
+}
+/* Navigation STyling */
+.main-nav {
+		margin-top:50px;
+		width: 280px;
+		background: lightgray;
+		}
+.main-nav a {
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #990000;
+	display: block;
+	padding: 10px 0 10px 20px;
+	border-bottom: 1px dotted gray;
+}
+.main-nav a:hover {text-decoration:none;
+					background: #990000;
+					color:#FFF;
+				}
+.sub-list1 a {
+	margin-left: 10px;
+	letter-spacing:0;
+}
+.main-nav-ul ul {display: none;}
+.main-nav-ul li:hover ul {display: block;}
+.main-nav-ul ul a:before {
+	content: '\203A';
+	margin-right: 20px;
+}
+.main-nav .sub-arrow:after {
+	content: '\203A';
+	float: right;
+	margin-right: 20px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+}
+.main-nav li:hover .sub-arrow:after {
+	content: '\2039';
+}
+#sanger {
+	margin-top:30px;
+}
+
+.social-menu {
+	margin-top:50px;
+}
+.social-menu li {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #e9e2d2;
+}
+
+#content {
+	padding:0;
+	background-color:#e9e2d2;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+footer {
+	background:lightgray;
+}
+#text-center {
+	margin-top:10px;
+}
+#NYU {
+	text-align: center;
+}

@@ -1,3 +1,6 @@
+* {
+	padding:0; margin:0;
+	}
 body {
 	font-size:16px;
 	font-family: 'oxygen', sans-serif;
@@ -10,9 +13,11 @@ header {
 #sanger {
 	float:left;
 	margin-left:10px;
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
 	}
 #main-container {	
-background-color:#e9e2d2;
+	background-color:#e9e2d2;
 }
 #main-content {
 	margin-top: 30px;	
@@ -26,40 +31,61 @@ background-color:#e9e2d2;
 	margin-bottom: 20px;
 	color: #e9e2d2;
 }
+#nav-list .active a {
+	color: #990000;
+	background-color: beige;
+}
 li a {
 	width:220px;
 	color: #990000;
-	background:gray;
-	font-size: 16px;
-	font-weight: bold;
-	font-family: 'Lato', sans-serif;
+	background:#bfbfbf;
+	font-size: 16px;	
+	font-family: 'oxygen', sans-serif;
+	border-bottom: 1px dotted gray;
 }
 #nav-list>li>a:hover {
-	background: beige;color:black;font-weight:bold;
+	background: beige;color:black;
 }
 #sub-list {
 	background:#e9e2d2;	
 }
 #sub-list li {
-	height: 35px;
-	color:gray;
+	height: 35px;	
 }
 #sub-list>li>a {
 	color:#990000;
 	font-size:12px;
-	height:34px;	
-	font-weight:bold;	
-	background: gray;
-	margin-bottom:2px ;
+	height:34px;
+	line-height:34px;		
+	background: #bfbfbf;
+	border-bottom: 1px dotted gray;
 }
 #sub-list>li>a:hover {
-	background-color: beige; color:black;font-weight:bold;
+	background-color: beige; color:black;
 }
 .dropdown-submenu:hover .dropdown-menu {
+	display:block;
 	top:0;	
 	margin-left:220px;
 	display:block;
 }
+#sub-menu2 {
+	display:none;
+}
+.dropdown-submenu #sub-menu2>li>a {
+	top:-35px;
+	line-height:34px;
+	height:34px;
+	color:#990000;font-size: 12px;
+	border-bottom: 1px dotted gray;
+
+}
+ #sub-menu2 li a:hover {
+	color:#990000;font-size: 12px;
+	border-bottom: 1px dotted gray;
+}
+
+
 .row.content {height: 100%}
     
     /* Set gray background color and 100% height */
