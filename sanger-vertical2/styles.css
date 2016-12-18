@@ -3,39 +3,43 @@ a {text-decoration: none;}
 li {list-style: none;}
 
 body {
-	background:#e9e2d2 ;
+	background:#eee ;
 }
 #main-container {	
-background-color:#e9e2d2;
+background-color:#eee;
 }
 header {
 	height:120px;
 	text-align:center;
-	background-color: #990000;
+	background-color: #1e4f7e;
 }
 /* Navigation STyling */
 .main-nav {
 		margin-top:50px;
 		width: 280px;
-		background: lightgray;
+		background: #cccccf;
 		}
 .main-nav a {
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	color: #990000;
+	color: #3b5998;
 	display: block;
 	padding: 10px 0 10px 20px;
 	border-bottom: 1px dotted gray;
 }
 .main-nav a:hover {text-decoration:none;
-					background: #990000;
+					background: #3b5998;
 					color:#FFF;
 				}
+
+.main-nav .active-page{background: #3b5998;
+					color:#FFF;}
+/* Main list */
 .sub-list1 a {
 	margin-left: 10px;
 	letter-spacing:0;
 }
-.main-nav-ul ul {display: none;}
+.main-nav-ul .sub-list1 {display: none;}
 .main-nav-ul li:hover ul {display: block;}
 .main-nav-ul ul a:before {
 	content: '\203A';
@@ -52,22 +56,45 @@ header {
 .main-nav li:hover .sub-arrow:after {
 	content: '\2039';
 }
+
+/*Sub list-2*/
+.main-nav-ul .sub-list1 .sub-list2 {display: none;}
+.main-nav-ul .sub-list1 li:hover ul {display:block; margin-left:20px;}
+.main-nav-ul .sub-list1 ul a:before {
+	content: '\203A';
+	margin-right: 20px;
+}
+
+.main-nav .sub-arrow:after {
+	content: '\203A';
+	float: right;
+	margin-right: 20px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+}
+.main-nav li:hover .sub-arrow:after {
+	content: '\2039';
+}
+
+/* Sub list-2 end*/
+
 #sanger {
 	margin-top:30px;
 }
 
 .social-menu {
-	margin-top:50px;
+	margin-top:100px;
 }
 .social-menu li {
 	text-align: center;
 	margin-bottom: 20px;
-	color: #e9e2d2;
+	color: #eee;
 }
 
 #content {
 	padding:0;
-	background-color:#e9e2d2;
+	background-color:#eee;
 	margin-top: 60px;
 	margin-bottom: 50px;
 }
@@ -81,3 +108,11 @@ footer {
 #NYU {
 	text-align: center;
 }
+
+
+/*For about.html page*/
+#blog {
+
+	font-family: 'Titillium Web', sans-serif; 
+	font-size:16px;	
+		}
