@@ -5,34 +5,54 @@ li {list-style: none;}
 body {
 	background:#eee ;
 }
-#main-container {	
-background-color:#eee;
-}
-header {
+header {	
 	height:120px;
 	text-align:center;
 	background-color: #1e4f7e;
 }
+ .title h1 {/*title name*/
+ 	padding-top:25px;
+ 	margin-top:0;
+ 	font-size:30px;
+	font-family: 'Lora', serif;
+	color: white;	
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;	
+	
+	}
+.title h3 {
+	font-family: 'Lora', serif;
+	font-size: 22px;
+	color: white;	
+	text-transform: uppercase;
+}
+#main-container {	
+background-color:#eee;
+}
+
 /* Navigation STyling */
 .main-nav {
-		margin-top:50px;
+		margin-top:30px;
 		width: 280px;
 		background: #cccccf;
 		}
 .main-nav a {
+	height:50px;	
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	color: #3b5998;
+	color:#1e4f7e;
 	display: block;
-	padding: 10px 0 10px 20px;
+	padding: 15px 0 10px 20px;
 	border-bottom: 1px dotted gray;
 }
+
 .main-nav a:hover {text-decoration:none;
-					background: #3b5998;
-					color:#FFF;
+					background: #1e4f7e;
+					color:#FFF;height:50px;
 				}
 
-.main-nav .active-page{background: #3b5998;
+.main-nav .active-page{background: #1e4f7e;
 					color:#FFF;}
 /* Main list */
 .sub-list1 a {
@@ -84,35 +104,46 @@ header {
 }
 
 .social-menu {
-	margin-top:100px;
+	margin-top:465px;
 }
 .social-menu li {
 	text-align: center;
 	margin-bottom: 20px;
 	color: #eee;
 }
-
+/* Content*/
 #content {
+	text-align:justify;
 	padding:0;
 	background-color:#eee;
 	margin-top: 60px;
 	margin-bottom: 50px;
 }
-
+#content a {
+	color:#1e4f7e;
+}
 footer {
+	height:50px;
+	padding-top: 10px;
+	text-align: center;
 	background:lightgray;
 }
-#text-center {
-	margin-top:10px;
-}
-#NYU {
-	text-align: center;
-}
-
 
 /*For about.html page*/
-#blog {
+.blog {
 
 	font-family: 'Titillium Web', sans-serif; 
 	font-size:16px;	
-		}
+	}
+.blog hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+.blog a { 
+	color: #1e4f7e;
+}
