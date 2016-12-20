@@ -49,7 +49,9 @@ background-color:#eee;
 
 .main-nav a:hover {text-decoration:none;
 					background: #1e4f7e;
-					color:#FFF;height:50px;
+					color:#FFF;
+					height:50px;
+					transition: all 0.40s
 				}
 
 .main-nav .active-page{background: #1e4f7e;
@@ -60,7 +62,10 @@ background-color:#eee;
 	letter-spacing:0;
 }
 .main-nav-ul .sub-list1 {display: none;}
-.main-nav-ul li:hover ul {display: block;}
+.main-nav-ul li:hover ul {
+	display: block;
+	transition: all 0.50s
+}
 .main-nav-ul ul a:before {
 	content: '\203A';
 	margin-right: 20px;
@@ -74,27 +79,31 @@ background-color:#eee;
 	-moz-transform: rotate(90deg);
 }
 .main-nav li:hover .sub-arrow:after {
-	content: '\2039';
+	content: '\2039';transition: all 0.40s
 }
 
 /*Sub list-2*/
 .main-nav-ul .sub-list1 .sub-list2 {display: none;}
-.main-nav-ul .sub-list1 li:hover ul {display:block; margin-left:20px;}
+.main-nav-ul .sub-list1 li:hover ul {
+	display:block; 
+	margin-left:20px;
+	transition: all 0.40s
+}
 .main-nav-ul .sub-list1 ul a:before {
 	content: '\203A';
-	margin-right: 20px;
+	margin-right: 20px;transition: all 0.40s
 }
 
 .main-nav .sub-arrow:after {
 	content: '\203A';
 	float: right;
-	margin-right: 20px;
+	margin-right: 20px;transition: all 0.40s
 	transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 }
 .main-nav li:hover .sub-arrow:after {
-	content: '\2039';
+	content: '\2039';transition: all 0.40s
 }
 
 /* Sub list-2 end*/
@@ -147,3 +156,28 @@ footer {
 .blog a { 
 	color: #1e4f7e;
 }
+#about-social-menu .social-menu{
+	margin-top: 390px;
+}
+
+/* For Search Button*/
+#search {
+	width:185px;
+	padding: 7px;
+	border: 1px solid #1e4f7e;
+}
+#submit{
+	padding: 7px;
+	background: #1e4f7e;
+	border: 1px solid #1e4f7e;
+	color: white;
+	margin-left: -5px;
+	cursor:pointer;
+}
+
+#submit:hover {
+	background: #1e4f7e;
+	transition: all 0.40s;
+}
+
+
