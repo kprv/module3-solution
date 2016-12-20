@@ -94,7 +94,7 @@ background-color:#eee;
 	margin-right: 20px;transition: all 0.40s
 }
 
-.main-nav .sub-arrow:after {
+.main-nav .sub-arrow1:after {
 	content: '\203A';
 	float: right;
 	margin-right: 20px;transition: all 0.40s
@@ -102,23 +102,22 @@ background-color:#eee;
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 }
-.main-nav li:hover .sub-arrow:after {
+.main-nav li:hover .sub-arrow1:after {
 	content: '\2039';transition: all 0.40s
 }
 
 /* Sub list-2 end*/
-
-#sanger {
-	margin-top:30px;
+#sanger { margin-top:30px; }
+#sanger img.center {
+    display: block;
+    margin-left:0 auto;
 }
 
-.social-menu {
-	margin-top:465px;
+.nyu a {
+	margin-left:10px;
 }
-.social-menu li {
-	text-align: center;
-	margin-bottom: 20px;
-	color: #eee;
+.nyu p {
+	text-align:center;
 }
 /* Content*/
 #content {
@@ -131,39 +130,42 @@ background-color:#eee;
 #content a {
 	color:#1e4f7e;
 }
-footer {
+.panel-footer {
 	height:50px;
 	padding-top: 10px;
 	text-align: center;
-	background:lightgray;
+	background-color: #cccccf;
 }
 
 /*For about.html page*/
 .blog {
-
-	font-family: 'Titillium Web', sans-serif; 
-	font-size:16px;	
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-top:385px;
+	
 	}
+#recent-blog {
+	margin-top:30px;	
+}
 .blog hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: .5em;
+    display: block;    
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
     border-width: 2px;
 }
 .blog a { 
-	color: #1e4f7e;
-	margin-top: 20px;
+	color: #1e4f7e;	
 }
-#about-social-menu .social-menu{
-	margin-top: 390px;
+.blog p {
+	margin-top:20px;	
+	font-family: 'Titillium Web', sans-serif; 
+	font-size:16px;	
 }
 
 /* For Search Button*/
 #search {
-	width:185px;
+	width:170px;
 	padding: 7px;
 	border: 1px solid #1e4f7e;
 }
