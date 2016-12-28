@@ -51,7 +51,7 @@ background-color:#eee;
 					background: #1e4f7e;
 					color:#FFF;
 					height:50px;
-					transition: all 0.40s
+					transition: all 0.80s
 				}
 
 .main-nav .active-page{background: #1e4f7e;
@@ -64,10 +64,11 @@ background-color:#eee;
 .main-nav-ul .sub-list1 {display: none;}
 .main-nav-ul li:hover ul {
 	display: block;
-	transition: all 0.50s
+	transition: all 0.80s
 }
 .main-nav-ul ul a:before {
 	content: '\203A';
+	
 	margin-right: 20px;
 }
 .main-nav .sub-arrow:after {
@@ -84,14 +85,11 @@ background-color:#eee;
 
 /*Sub list-2*/
 .main-nav-ul .sub-list1 .sub-list2 {display: none;}
+
 .main-nav-ul .sub-list1 li:hover ul {
 	display:block; 
 	margin-left:20px;
 	transition: all 0.40s
-}
-.main-nav-ul .sub-list1 ul a:before {
-	content: '\203A';
-	margin-right: 20px;transition: all 0.40s
 }
 
 .main-nav .sub-arrow1:after {
@@ -102,7 +100,7 @@ background-color:#eee;
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 }
-.main-nav li:hover .sub-arrow1:after {
+.main-nav .sub-list1 li:hover .sub-arrow1:after {
 	content: '\2039';transition: all 0.40s
 }
 
@@ -143,9 +141,10 @@ background-color:#eee;
 	margin-right:-10px;
 	margin-top:385px;
 	
-	}
-#recent-blog {
-	margin-top:30px;	
+}
+.blog h4 {
+	margin-top:20px;
+	text-align:center;	
 }
 .blog hr { 
     display: block;    
@@ -165,22 +164,29 @@ background-color:#eee;
 
 /* For Search Button*/
 #search {
-	width:170px;
-	padding: 7px;
-	border: 1px solid #1e4f7e;
-}
-#submit{
-	padding: 7px;
-	background: #1e4f7e;
-	border: 1px solid #1e4f7e;
-	color: white;
-	margin-left: -5px;
-	cursor:pointer;
+	width: 330px; 	
 }
 
-#submit:hover {
-	background: #1e4f7e;
-	transition: all 0.40s;
+#search .gsc-control-cse {
+	border-style:none;
+	margin-left:-15px;
+	background-color: #eee;
+}
+.gsc-control-cse .gsc-table-result {
+    font-family : inherit;
 }
 
+.gsc-control-cse .gsc-input-box {
+    height : 30px;
+}
+
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus,
+.gsc-search-button, input.gsc-search-button-v2 {
+    box-sizing  : content-box;
+    line-height : normal;
+    margin-top  : 0px;
+}
 
